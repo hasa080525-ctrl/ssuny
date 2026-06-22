@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>전국과외 | 초중고 전과목 방문과외 · 비대면과외</title>
+<meta name="description" content="초중고 전과목 방문과외·비대면과외 전문. 검증된 선생님과 1:1 맞춤 수업을 시작하세요. 상담 신청 시 1~2일 내 연락드립니다.">
+<meta name="keywords" content="방문과외,비대면과외,전국과외,초등과외,중등과외,고등과외,화상과외,1대1과외">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="전국과외">
+<meta property="og:title" content="전국과외 | 초중고 전과목 방문과외 · 비대면과외">
+<meta property="og:description" content="초중고 전과목 방문과외·비대면과외 전문. 검증된 선생님과 1:1 맞춤 수업을 시작하세요.">
+<meta property="og:url" content="https://your-domain-here.com">
+<meta property="og:image" content="https://your-domain-here.com/share.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='22' fill='%234361EE'/%3E%3Ctext x='50' y='68' font-size='54' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3E과%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&family=Noto+Sans+KR:wght@400;500;600;700;900&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+body{font-family:'Noto Sans KR',sans-serif;background:#F8F9FF;color:#374151;line-height:1.7;-webkit-font-smoothing:antialiased;}
+:root{--navy:#1E2B6F;--blue:#4361EE;--blue-l:#EEF2FF;--coral:#FF6B6B;--mint:#06D6A0;--mint-l:#E8FAF5;--gold:#FFB700;--gold-l:#FFF8E7;--bg:#F8F9FF;--bg2:#EEF2FF;--text:#374151;--muted:#6B7280;--line:#E5E7EB;--white:#FFFFFF;}
+h1,h2,h3{font-family:'Noto Serif KR',serif;color:var(--navy);letter-spacing:-.01em;}
+a{text-decoration:none;color:inherit;}
+::selection{background:var(--blue);color:#fff;}
+
+/* TOPBAR */
+.topbar{background:var(--navy);color:rgba(255,255,255,.82);font-size:13px;padding:9px 0;text-align:center;}
+.topbar a{color:#fff;font-weight:700;}
+.topbar .sep{margin:0 10px;opacity:.35;}
+
+/* HEADER */
+header{position:sticky;top:0;z-index:99;background:rgba(248,249,255,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--line);}
+.nav{max-width:1100px;margin:0 auto;padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:64px;}
+.logo{font-family:'Noto Serif KR',serif;font-weight:900;font-size:20px;color:var(--navy);display:flex;align-items:center;gap:8px;}
+.logo .dot{width:10px;height:10px;border-radius:50%;background:var(--blue);}
+.nav-links{display:flex;gap:28px;list-style:none;}
+.nav-links a{font-size:14.5px;font-weight:500;color:var(--text);transition:color .15s;}
+.nav-links a:hover{color:var(--blue);}
+.nav-cta{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;font-weight:700;font-size:14px;padding:11px 22px;border-radius:999px;border:none;cursor:pointer;transition:all .2s;font-family:'Noto Sans KR',sans-serif;}
+.nav-cta:hover{background:#2d4de0;transform:translateY(-1px);box-shadow:0 6px 20px rgba(67,97,238,.35);}
+.ham{display:none;background:none;border:none;cursor:pointer;flex-direction:column;gap:5px;padding:4px;}
+.ham span{display:block;width:22px;height:2px;background:var(--navy);border-radius:2px;}
+.mob-menu{display:none;position:fixed;inset:0;background:#fff;z-index:200;flex-direction:column;align-items:center;justify-content:center;gap:28px;}
+.mob-menu.open{display:flex;}
+.mob-menu a{font-family:'Noto Serif KR',serif;font-size:22px;font-weight:700;color:var(--navy);}
+.mob-close{position:absolute;top:20px;right:24px;font-size:28px;background:none;border:none;cursor:pointer;color:var(--navy);}
+
+/* HERO */
+.hero{min-height:88vh;display:flex;align-items:center;background:linear-gradient(135deg,#F0F4FF 0%,#E8F4FD 40%,#EEF9F5 100%);position:relative;overflow:hidden;padding:80px 0;}
+.hero::before{content:"";position:absolute;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(67,97,238,.12) 0%,transparent 70%);top:-150px;right:-100px;}
+.hero::after{content:"";position:absolute;width:400px;height:400px;border-radius:50%;background:radial-gradient(circle,rgba(6,214,160,.1) 0%,transparent 70%);bottom:-100px;left:-80px;}
+.hero-in{max-width:1100px;margin:0 auto;padding:0 28px;display:grid;grid-template-columns:1.2fr 0.8fr;gap:60px;align-items:center;position:relative;z-index:1;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);padding:7px 16px;border-radius:999px;font-size:13px;font-weight:600;color:var(--blue);margin-bottom:22px;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+.ping{width:8px;height:8px;border-radius:50%;background:var(--mint);animation:ping 1.5s infinite;}
+@keyframes ping{0%,100%{opacity:1;transform:scale(1);}50%{opacity:.6;transform:scale(1.3);}}
+.hero h1{font-size:52px;line-height:1.22;font-weight:900;margin-bottom:22px;}
+.hl{color:var(--blue);position:relative;display:inline-block;}
+.hl::after{content:"";position:absolute;bottom:2px;left:0;right:0;height:4px;background:linear-gradient(90deg,var(--mint),var(--blue));border-radius:2px;opacity:.5;}
+.hero p{font-size:16px;color:var(--muted);max-width:460px;margin-bottom:36px;}
+.hero-btns{display:flex;gap:14px;flex-wrap:wrap;}
+.btn-main{display:inline-flex;align-items:center;gap:8px;background:var(--blue);color:#fff;font-weight:700;font-size:15.5px;padding:16px 32px;border-radius:999px;border:none;cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all .2s;box-shadow:0 8px 24px rgba(67,97,238,.35);}
+.btn-main:hover{background:#2d4de0;transform:translateY(-2px);box-shadow:0 12px 32px rgba(67,97,238,.45);}
+.btn-out{display:inline-flex;align-items:center;gap:8px;background:#fff;color:var(--navy);font-weight:600;font-size:15px;padding:15px 28px;border-radius:999px;border:2px solid var(--line);cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all .2s;}
+.btn-out:hover{border-color:var(--blue);color:var(--blue);}
+.hcard{background:#fff;border-radius:24px;padding:32px;box-shadow:0 20px 60px -20px rgba(30,43,111,.2);border:1px solid rgba(255,255,255,.8);}
+.hcard .ct{font-size:12.5px;font-weight:700;color:var(--muted);letter-spacing:.06em;text-transform:uppercase;margin-bottom:18px;}
+.si{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--line);}
+.si:last-child{border:none;}
+.si-ic{width:44px;height:44px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0;}
+.si-ic.bl{background:var(--blue-l);} .si-ic.mi{background:var(--mint-l);} .si-ic.go{background:var(--gold-l);} .si-ic.co{background:#FFF0F0;}
+.si-n{font-family:'IBM Plex Mono',monospace;font-size:22px;font-weight:600;color:var(--navy);display:block;line-height:1;}
+.si-l{font-size:12px;color:var(--muted);margin-top:3px;display:block;}
+
+/* SECTION */
+section{padding:90px 0;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 28px;}
+.sh{text-align:center;margin-bottom:56px;}
+.eye{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);background:var(--blue-l);padding:5px 14px;border-radius:999px;margin-bottom:14px;}
+.sh h2{font-size:36px;font-weight:900;line-height:1.3;margin-bottom:14px;}
+.sh p{font-size:15.5px;color:var(--muted);max-width:520px;margin:0 auto;}
+
+/* METHODS */
+.methods{background:#fff;}
+.mg{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
+.mc{border-radius:20px;padding:40px 36px;border:1.5px solid transparent;transition:transform .2s,box-shadow .2s;position:relative;overflow:hidden;}
+.mc:hover{transform:translateY(-4px);box-shadow:0 20px 50px -16px rgba(30,43,111,.18);}
+.mc.visit{background:linear-gradient(135deg,#EEF2FF,#E0E8FF);border-color:#C7D2FE;}
+.mc.online{background:linear-gradient(135deg,#E8FAF5,#D1F5EB);border-color:#A7F3D0;}
+.mc-tag{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:700;padding:5px 14px;border-radius:999px;margin-bottom:18px;}
+.visit .mc-tag{background:var(--blue);color:#fff;} .online .mc-tag{background:var(--mint);color:#fff;}
+.mc h3{font-size:25px;font-weight:900;margin-bottom:10px;}
+.mc .ds{font-size:14.5px;color:var(--muted);margin-bottom:22px;}
+.mcl{list-style:none;display:flex;flex-direction:column;gap:11px;}
+.mcl li{display:flex;align-items:flex-start;gap:10px;font-size:14.5px;}
+.mcl li::before{content:"✓";font-weight:900;flex-shrink:0;margin-top:2px;}
+.visit .mcl li::before{color:var(--blue);} .online .mcl li::before{color:var(--mint);}
+
+/* SUBJECTS */
+.subjects{background:var(--bg2);}
+.tabs{display:flex;gap:10px;justify-content:center;margin-bottom:32px;flex-wrap:wrap;}
+.tab{font-family:'Noto Sans KR',sans-serif;font-size:15px;font-weight:600;padding:11px 28px;border-radius:999px;border:2px solid var(--line);background:#fff;color:var(--muted);cursor:pointer;transition:all .15s;}
+.tab.on{background:var(--blue);color:#fff;border-color:var(--blue);}
+.pills{display:none;flex-wrap:wrap;gap:10px;justify-content:center;}
+.pills.on{display:flex;}
+.pill{font-size:14.5px;font-weight:600;padding:10px 20px;border-radius:12px;background:#fff;border:1.5px solid var(--line);color:var(--navy);transition:all .15s;}
+.pill:hover{border-color:var(--blue);color:var(--blue);}
+.nb{margin-top:32px;background:#fff;border-radius:16px;padding:22px 28px;display:flex;align-items:center;gap:14px;font-size:14px;color:var(--muted);border:1px solid var(--line);}
+
+/* PROCESS */
+.proc{background:var(--navy);}
+.proc .eye{background:rgba(255,255,255,.12);color:#fff;}
+.proc .sh h2{color:#fff;} .proc .sh p{color:rgba(255,255,255,.6);}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;position:relative;}
+.steps::before{content:"";position:absolute;top:40px;left:12.5%;right:12.5%;height:1px;background:linear-gradient(90deg,var(--blue),var(--mint));opacity:.4;}
+.step{text-align:center;padding:0 20px;display:flex;flex-direction:column;align-items:center;}
+.sn{width:80px;height:80px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'IBM Plex Mono',monospace;font-size:26px;font-weight:600;margin-bottom:24px;position:relative;z-index:1;}
+.step:nth-child(1) .sn{background:#EEF2FF;color:var(--blue);}
+.step:nth-child(2) .sn{background:#E8FAF5;color:var(--mint);}
+.step:nth-child(3) .sn{background:#FFF8E7;color:var(--gold);}
+.step:nth-child(4) .sn{background:#FFF0F0;color:var(--coral);}
+.step h3{font-size:17px;font-weight:700;color:#fff;margin-bottom:10px;}
+.step p{font-size:13.5px;color:rgba(255,255,255,.58);line-height:1.7;}
+
+/* REVIEWS */
+.reviews{background:#fff;}
+.rg{display:grid;grid-template-columns:1fr 1fr;gap:20px;}
+.rv{background:var(--bg);border-radius:18px;padding:30px 28px;border:1.5px solid var(--line);transition:all .2s;}
+.rv:hover{border-color:var(--blue);box-shadow:0 8px 30px rgba(67,97,238,.1);}
+.rvt{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;}
+.rvb{font-size:11.5px;font-weight:700;padding:4px 12px;border-radius:999px;}
+.rvb.v{background:var(--blue-l);color:var(--blue);} .rvb.o{background:var(--mint-l);color:#059669;}
+.stars{color:var(--gold);font-size:14px;letter-spacing:2px;}
+.rv p{font-size:14.5px;color:var(--text);line-height:1.75;margin-bottom:16px;}
+.rv-who{font-size:12.5px;color:var(--muted);font-weight:600;}
+
+/* APPLY */
+.apply{background:var(--bg2);}
+.abox{background:#fff;border-radius:24px;padding:52px;box-shadow:0 24px 80px -32px rgba(30,43,111,.18);border:1px solid var(--line);}
+.abox h3{font-size:28px;font-weight:900;margin-bottom:8px;}
+.abox .sub{font-size:15px;color:var(--muted);margin-bottom:36px;}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:20px 24px;}
+.field{display:flex;flex-direction:column;gap:7px;}
+.field.full{grid-column:1/-1;}
+.lbl{font-size:13px;font-weight:700;color:var(--navy);}
+.lbl .req{color:var(--coral);}
+input[type=text],input[type=tel],select,textarea{font-family:'Noto Sans KR',sans-serif;font-size:14.5px;color:var(--text);padding:13px 16px;border:1.5px solid var(--line);border-radius:12px;background:var(--bg);width:100%;outline:none;transition:border-color .15s;-webkit-appearance:none;}
+input:focus,select:focus,textarea:focus{border-color:var(--blue);background:#fff;}
+textarea{resize:vertical;}
+.rr{display:flex;gap:14px;flex-wrap:wrap;}
+.ro{display:flex;align-items:center;gap:8px;font-size:14px;font-weight:500;padding:10px 18px;border-radius:12px;border:1.5px solid var(--line);cursor:pointer;transition:all .15s;background:var(--bg);flex:1;min-width:120px;}
+.ro input{accent-color:var(--blue);width:15px;height:15px;}
+.ro:has(input:checked){border-color:var(--blue);background:var(--blue-l);}
+.cr{display:flex;gap:10px;flex-wrap:wrap;}
+.co{display:flex;align-items:center;gap:7px;font-size:13.5px;font-weight:500;padding:8px 14px;border-radius:10px;border:1.5px solid var(--line);cursor:pointer;background:var(--bg);transition:all .15s;}
+.co input{accent-color:var(--blue);}
+.co:has(input:checked){border-color:var(--blue);background:var(--blue-l);}
+.ff{display:flex;align-items:center;justify-content:space-between;margin-top:32px;flex-wrap:wrap;gap:12px;}
+.fn{font-size:12.5px;color:var(--muted);}
+.sbtn{display:inline-flex;align-items:center;gap:10px;background:var(--blue);color:#fff;font-weight:700;font-size:16px;padding:16px 40px;border-radius:999px;border:none;cursor:pointer;font-family:'Noto Sans KR',sans-serif;transition:all .2s;box-shadow:0 8px 24px rgba(67,97,238,.3);}
+.sbtn:hover{background:#2d4de0;transform:translateY(-2px);}
+.emsg{font-size:13px;color:var(--coral);margin-top:8px;display:none;}
+.emsg.show{display:block;}
+
+/* CONTACT */
+.contact{background:linear-gradient(135deg,var(--navy) 0%,#2d3f9e 100%);padding:64px 0;}
+.cin{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:28px;}
+.cin h3{font-size:28px;font-weight:900;color:#fff;margin-bottom:8px;}
+.cin p{font-size:15px;color:rgba(255,255,255,.65);}
+.cinfo{display:flex;flex-direction:column;gap:10px;}
+.ci{display:flex;align-items:center;gap:12px;font-size:15px;color:rgba(255,255,255,.9);font-weight:500;}
+.ciic{width:38px;height:38px;border-radius:10px;background:rgba(255,255,255,.12);display:flex;align-items:center;justify-content:center;font-size:17px;flex-shrink:0;}
+
+/* FOOTER */
+footer{background:#111827;padding:40px 0;}
+.fin{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;}
+.fb{font-family:'Noto Serif KR',serif;font-weight:900;font-size:18px;color:#fff;}
+.fi{font-size:12.5px;color:#6B7280;line-height:1.9;margin-top:6px;}
+.fl{display:flex;gap:20px;}
+.fl a{font-size:13px;color:#9CA3AF;transition:color .15s;}
+.fl a:hover{color:#fff;}
+
+/* MODAL */
+.mbg{position:fixed;inset:0;background:rgba(17,24,39,.6);display:none;align-items:center;justify-content:center;z-index:300;padding:20px;backdrop-filter:blur(4px);}
+.mbg.open{display:flex;}
+.modal{background:#fff;border-radius:24px;padding:48px 40px;text-align:center;max-width:380px;width:100%;box-shadow:0 40px 80px rgba(0,0,0,.3);}
+.mi{font-size:52px;margin-bottom:16px;display:block;}
+.modal h3{font-size:22px;font-weight:900;margin-bottom:10px;color:var(--navy);}
+.modal p{font-size:14.5px;color:var(--muted);margin-bottom:24px;line-height:1.7;}
+.mbtn{display:inline-block;background:var(--blue);color:#fff;font-weight:700;font-size:15px;padding:13px 32px;border-radius:999px;border:none;cursor:pointer;font-family:'Noto Sans KR',sans-serif;}
+.mbtn:hover{background:#2d4de0;}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+  .nav-links{display:none;} .ham{display:flex;}
+  .hero-in{grid-template-columns:1fr;}
+  .hero h1{font-size:34px;} .hcard{display:none;}
+  .mg{grid-template-columns:1fr;}
+  .steps{grid-template-columns:1fr 1fr;gap:32px 20px;}
+  .steps::before{display:none;}
+  .rg{grid-template-columns:1fr;}
+  .abox{padding:28px 20px;}
+  .fg{grid-template-columns:1fr;}
+  section{padding:64px 0;}
+  .sh h2{font-size:28px;}
+}
+@media(max-width:600px){
+  .hero h1{font-size:27px;}
+  .steps{grid-template-columns:1fr;}
+  .cin{flex-direction:column;}
+  .ff{flex-direction:column;align-items:stretch;}
+  .sbtn{width:100%;justify-content:center;}
+  .hero-btns{flex-direction:column;}
+  .btn-main,.btn-out{justify-content:center;}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  📞 빠른 상담: <a href="tel:01039510535">010-3951-0535</a>
+  <span class="sep">|</span>
+  평일 09:00~20:00 &nbsp;·&nbsp; 주말 10:00~18:00
+</div>
+
+<header>
+  <div class="nav">
+    <div class="logo"><span class="dot"></span>전국과외</div>
+    <ul class="nav-links">
+      <li><a href="#methods">수업 방식</a></li>
+      <li><a href="#subjects">과목 안내</a></li>
+      <li><a href="#process">진행 과정</a></li>
+      <li><a href="#reviews">후기</a></li>
+      <li><a href="#apply">상담 신청</a></li>
+    </ul>
+    <a href="#apply" class="nav-cta">상담 신청하기</a>
+    <button class="ham" id="hamBtn"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="mob-menu" id="mobMenu">
+  <button class="mob-close" id="mobClose">✕</button>
+  <a href="#methods" class="ml">수업 방식</a>
+  <a href="#subjects" class="ml">과목 안내</a>
+  <a href="#process" class="ml">진행 과정</a>
+  <a href="#reviews" class="ml">후기</a>
+  <a href="#apply" class="ml" style="color:var(--blue)">상담 신청</a>
+</div>
+
+<section class="hero" id="home">
+  <div class="hero-in">
+    <div>
+      <div class="badge"><span class="ping"></span>전국 17개 시·도 운영 중</div>
+      <h1>초중고 전과목<br><span class="hl">검증된 선생님</span>과<br>1:1 맞춤 과외</h1>
+      <p>방문 또는 비대면 중 원하는 방식으로 수업하세요.<br>모든 선생님은 서류·면접을 통해 검증됩니다.</p>
+      <div class="hero-btns">
+        <a href="#apply" class="btn-main">📋 상담 신청하기</a>
+        <a href="#reviews" class="btn-out">후기 보기</a>
+      </div>
+    </div>
+    <div class="hcard">
+      <p class="ct">누적 현황</p>
+      <div class="si"><div class="si-ic bl">📚</div><div><span class="si-n">2,400+</span><span class="si-l">누적 매칭 학생 수</span></div></div>
+      <div class="si"><div class="si-ic mi">👨‍🏫</div><div><span class="si-n">980+</span><span class="si-l">검증 완료 선생님</span></div></div>
+      <div class="si"><div class="si-ic go">⭐</div><div><span class="si-n">4.9</span><span class="si-l">평균 만족도</span></div></div>
+      <div class="si"><div class="si-ic co">📍</div><div><span class="si-n">17개</span><span class="si-l">전국 서비스 지역</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="methods" id="methods">
+  <div class="wrap">
+    <div class="sh">
+      <span class="eye">수업 방식</span>
+      <h2>방문과외와 비대면과외,<br>원하는 방식을 선택하세요</h2>
+      <p>두 방식 모두 동일하게 검증된 선생님이 진행하며, 상담 후 변경도 가능합니다.</p>
+    </div>
+    <div class="mg">
+      <div class="mc visit">
+        <span class="mc-tag">🏠 방문과외</span>
+        <h3>선생님이 집으로 찾아갑니다</h3>
+        <p class="ds">정해진 시간에 선생님이 직접 방문하여 1:1 수업을 진행합니다.</p>
+        <ul class="mcl">
+          <li>매주 같은 시간, 같은 공간에서 학습 습관을 형성합니다</li>
+          <li>실시간으로 이해도를 확인하며 즉각적인 피드백을 드립니다</li>
+          <li>교재 선정부터 진도 관리까지 선생님이 직접 담당합니다</li>
+          <li>형제·자매 함께 수업, 소그룹 수업 조율도 가능합니다</li>
+        </ul>
+      </div>
+      <div class="mc online">
+        <span class="mc-tag">💻 비대면과외</span>
+        <h3>화면으로 만나는 실시간 수업</h3>
+        <p class="ds">전국 어디서나 원하는 선생님과 실시간 화상 수업을 진행합니다.</p>
+        <ul class="mcl">
+          <li>지역 제한 없이 전국 최적의 선생님을 연결해 드립니다</li>
+          <li>실시간 화상 + 화면 공유로 현장감 있는 수업을 진행합니다</li>
+          <li>수업 녹화본 제공으로 복습이 편리합니다</li>
+          <li>이동 없이 학원 일정 사이에도 수업할 수 있습니다</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="subjects" id="subjects">
+  <div class="wrap">
+    <div class="sh">
+      <span class="eye">과목 안내</span>
+      <h2>초·중·고 전과목을 한 곳에서</h2>
+      <p>학년을 선택하면 수업 가능한 과목을 확인할 수 있습니다.</p>
+    </div>
+    <div class="tabs">
+      <button class="tab on" data-t="el">🌱 초등</button>
+      <button class="tab" data-t="mid">📗 중등</button>
+      <button class="tab" data-t="high">🎓 고등</button>
+    </div>
+    <div class="pills on" data-p="el">
+      <div class="pill">국어</div><div class="pill">영어</div><div class="pill">수학</div>
+      <div class="pill">사회</div><div class="pill">과학</div><div class="pill">한자</div>
+      <div class="pill">독서 논술</div><div class="pill">한국사</div><div class="pill">전과목 관리</div>
+    </div>
+    <div class="pills" data-p="mid">
+      <div class="pill">국어</div><div class="pill">영어</div><div class="pill">수학</div>
+      <div class="pill">사회</div><div class="pill">과학</div><div class="pill">한문</div>
+      <div class="pill">한국사</div><div class="pill">기술·가정</div><div class="pill">내신 전과목</div>
+    </div>
+    <div class="pills" data-p="high">
+      <div class="pill">국어</div><div class="pill">영어</div><div class="pill">수학</div>
+      <div class="pill">사회탐구</div><div class="pill">과학탐구</div><div class="pill">한국사</div>
+      <div class="pill">제2외국어</div><div class="pill">내신 전과목</div><div class="pill">수능 대비</div>
+    </div>
+    <div class="nb"><span>💡</span> 목록에 없는 과목도 상담을 통해 선생님 매칭이 가능합니다. 아래 상담 신청폼을 이용해 주세요.</div>
+  </div>
+</section>
+
+<section class="proc" id="process">
+  <div class="wrap">
+    <div class="sh">
+      <span class="eye">진행 과정</span>
+      <h2>신청부터 첫 수업까지</h2>
+      <p>복잡한 절차 없이 4단계로 시작됩니다.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="sn">01</div><h3>상담 신청</h3><p>학생 학년·희망 과목·수업 방식을 입력하면 담당자가 연락드립니다.</p></div>
+      <div class="step"><div class="sn">02</div><h3>맞춤 매칭</h3><p>학습 성향과 지역·일정에 맞는 선생님을 추천해 드립니다.</p></div>
+      <div class="step"><div class="sn">03</div><h3>첫 수업 진행</h3><p>선생님과 수업 방향·교재·진도를 협의하고 첫 수업을 시작합니다.</p></div>
+      <div class="step"><div class="sn">04</div><h3>정기 수업</h3><p>정해진 일정에 따라 꾸준하게 1:1 맞춤 수업을 이어갑니다.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="reviews" id="reviews">
+  <div class="wrap">
+    <div class="sh">
+      <span class="eye">후기</span>
+      <h2>먼저 경험한 학부모·학생 이야기</h2>
+    </div>
+    <div class="rg">
+      <div class="rv"><div class="rvt"><span class="rvb v">방문과외</span><span class="stars">★★★★★</span></div><p>아이가 수학을 어렵다고 포기하려 했는데, 선생님께서 눈높이에 맞게 차근차근 설명해 주셔서 자신감을 되찾았어요. 매주 같은 시간에 방문해 주셔서 학습 습관도 자연스럽게 잡혔습니다.</p><span class="rv-who">초5 학부모 · 수학</span></div>
+      <div class="rv"><div class="rvt"><span class="rvb o">비대면과외</span><span class="stars">★★★★★</span></div><p>학원 일정이 끝난 늦은 시간에도 화상으로 수업할 수 있어 시간을 효율적으로 쓸 수 있었어요. 수업 녹화본을 시험 전에 다시 볼 수 있어 복습에도 큰 도움이 됩니다.</p><span class="rv-who">중3 학부모 · 영어</span></div>
+      <div class="rv"><div class="rvt"><span class="rvb o">비대면과외</span><span class="stars">★★★★★</span></div><p>지방에 살다 보니 좋은 선생님을 찾기가 어려웠는데, 비대면으로 원하는 선생님과 수업할 수 있어서 정말 좋았어요. 내신 성적이 많이 올랐습니다.</p><span class="rv-who">고2 학생 · 국어·영어</span></div>
+      <div class="rv"><div class="rvt"><span class="rvb v">방문과외</span><span class="stars">★★★★★</span></div><p>선생님 검증 절차가 꼼꼼해서 처음부터 안심하고 아이를 맡길 수 있었어요. 담당자분이 수업 진행 상황도 중간중간 확인해 주셔서 더 믿음이 갔습니다.</p><span class="rv-who">초3 학부모 · 전과목</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="apply" id="apply">
+  <div class="wrap">
+    <div class="sh">
+      <span class="eye">상담 신청</span>
+      <h2>지금 신청하시면<br>1~2일 내 연락드립니다</h2>
+    </div>
+    <div class="abox">
+      <h3>📋 상담 신청</h3>
+      <p class="sub">아래 내용을 작성하시면 학생에게 맞는 선생님을 찾아 안내해 드립니다.</p>
+      <form id="applyForm">
+        <div class="fg">
+          <div class="field">
+            <label class="lbl">이름 <span class="req">*</span></label>
+            <input type="text" id="fn" placeholder="학생 또는 보호자 이름" required>
+          </div>
+          <div class="field">
+            <label class="lbl">연락처 <span class="req">*</span></label>
+            <input type="tel" id="fp" placeholder="010-0000-0000" required>
+          </div>
+          <div class="field">
+            <label class="lbl">학생 학년 <span class="req">*</span></label>
+            <select id="fg" required>
+              <option value="">선택해 주세요</option>
+              <optgroup label="초등"><option>초등 1~3학년</option><option>초등 4~6학년</option></optgroup>
+              <optgroup label="중등"><option>중등 1학년</option><option>중등 2학년</option><option>중등 3학년</option></optgroup>
+              <optgroup label="고등"><option>고등 1학년</option><option>고등 2학년</option><option>고등 3학년</option></optgroup>
+            </select>
+          </div>
+          <div class="field">
+            <label class="lbl">거주 지역 <span style="font-weight:400;color:var(--muted);font-size:12px">(방문과외 시)</span></label>
+            <input type="text" id="fr" placeholder="예: 서울 강남구">
+          </div>
+          <div class="field full">
+            <label class="lbl">희망 수업 방식 <span class="req">*</span></label>
+            <div class="rr">
+              <label class="ro"><input type="radio" name="method" value="방문과외" required>🏠 방문과외</label>
+              <label class="ro"><input type="radio" name="method" value="비대면과외">💻 비대면과외</label>
+              <label class="ro"><input type="radio" name="method" value="상담 후 결정">🤝 상담 후 결정</label>
+            </div>
+          </div>
+          <div class="field full">
+            <label class="lbl">희망 과목</label>
+            <div class="cr">
+              <label class="co"><input type="checkbox" value="국어">국어</label>
+              <label class="co"><input type="checkbox" value="영어">영어</label>
+              <label class="co"><input type="checkbox" value="수학">수학</label>
+              <label class="co"><input type="checkbox" value="사회/사탐">사회·사탐</label>
+              <label class="co"><input type="checkbox" value="과학/과탐">과학·과탐</label>
+              <label class="co"><input type="checkbox" value="전과목">전과목</label>
+              <label class="co"><input type="checkbox" value="기타">기타</label>
+            </div>
+          </div>
+          <div class="field full">
+            <label class="lbl">문의사항</label>
+            <textarea id="fnt" rows="3" placeholder="학생의 현재 학습 상황이나 기타 요청사항을 자유롭게 적어주세요."></textarea>
+          </div>
+        </div>
+        <p class="emsg" id="em">희망 수업 방식을 선택해 주세요.</p>
+        <div class="ff">
+          <span class="fn">📌 제출하신 정보는 과외 매칭 상담 목적으로만 사용됩니다.</span>
+          <button type="submit" class="sbtn">문자로 신청하기 →</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="contact">
+  <div class="wrap cin">
+    <div>
+      <h3>전화로 바로 상담받기</h3>
+      <p>평일 09:00~20:00 · 주말 10:00~18:00<br>전화 연결이 어려울 때는 문자를 남겨주시면 연락드립니다.</p>
+    </div>
+    <div class="cinfo">
+      <div class="ci"><div class="ciic">📞</div><a href="tel:01039510535" style="color:#fff;font-size:22px;font-weight:700;font-family:'IBM Plex Mono',monospace;">010-3951-0535</a></div>
+      <div class="ci"><div class="ciic">✉️</div><a href="mailto:hasa21@naver.com" style="color:rgba(255,255,255,.8);">hasa21@naver.com</a></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap fin">
+    <div>
+      <div class="fb">전국과외</div>
+      <div class="fi">Tel. 010-3951-0535 · hasa21@naver.com<br>전국 17개 시·도 · 초중고 전과목 방문·비대면 과외</div>
+    </div>
+    <div class="fl">
+      <a href="#methods">수업 방식</a>
+      <a href="#subjects">과목 안내</a>
+      <a href="#apply">상담 신청</a>
+    </div>
+  </div>
+</footer>
+
+<div class="mbg" id="mbg">
+  <div class="modal">
+    <span class="mi">📲</span>
+    <h3>문자 작성 화면이 열려요</h3>
+    <p>신청 내용이 미리 입력되어 있습니다.<br><b>전송</b> 버튼을 누르시면 신청이 완료됩니다.</p>
+    <button class="mbtn" id="mclose">확인</button>
+  </div>
+</div>
+
+<script>
+// Mobile menu
+const hamBtn=document.getElementById('hamBtn'),mobMenu=document.getElementById('mobMenu'),mobClose=document.getElementById('mobClose');
+hamBtn.addEventListener('click',()=>mobMenu.classList.add('open'));
+mobClose.addEventListener('click',()=>mobMenu.classList.remove('open'));
+document.querySelectorAll('.ml').forEach(a=>a.addEventListener('click',()=>mobMenu.classList.remove('open')));
+
+// Tabs
+document.querySelectorAll('.tab').forEach(b=>{
+  b.addEventListener('click',()=>{
+    document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+    document.querySelectorAll('.pills').forEach(x=>x.classList.remove('on'));
+    b.classList.add('on');
+    document.querySelector('.pills[data-p="'+b.dataset.t+'"]').classList.add('on');
+  });
+});
+
+// Modal
+const mbg=document.getElementById('mbg');
+document.getElementById('mclose').addEventListener('click',()=>mbg.classList.remove('open'));
+mbg.addEventListener('click',e=>{if(e.target===mbg)mbg.classList.remove('open');});
+
+// Form -> SMS
+document.getElementById('applyForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const method=document.querySelector('input[name="method"]:checked');
+  const em=document.getElementById('em');
+  if(!method){em.classList.add('show');return;}
+  em.classList.remove('show');
+  const subs=Array.from(document.querySelectorAll('.co input:checked')).map(c=>c.value);
+  const txt=[
+    '[전국과외 상담 신청]',
+    '이름: '+document.getElementById('fn').value,
+    '연락처: '+document.getElementById('fp').value,
+    '학년: '+document.getElementById('fg').value,
+    '지역: '+(document.getElementById('fr').value||'-'),
+    '과목: '+(subs.join(', ')||'-'),
+    '방식: '+method.value,
+    '문의: '+(document.getElementById('fnt').value||'-')
+  ].join('\n');
+  const isIOS=/iPad|iPhone|iPod/.test(navigator.userAgent);
+  window.location.href='sms:01039510535'+(isIOS?'&':'?')+'body='+encodeURIComponent(txt);
+  mbg.classList.add('open');
+  e.target.reset();
+});
+
+// Smooth scroll
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const el=document.getElementById(a.getAttribute('href').slice(1));
+    if(el){e.preventDefault();window.scrollTo({top:el.getBoundingClientRect().top+scrollY-72,behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
